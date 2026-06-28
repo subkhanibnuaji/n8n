@@ -1,20 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>n8n</title>
   <style>
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 4rem auto; padding: 0 1rem; color: #111; }
-    h1 { font-size: 2rem; }
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem 1rem; color: #1f2937; line-height: 1.6; }
+    header { border-bottom: 1px solid #e5e7eb; padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
+    .desc { color: #4b5563; font-size: 1.1rem; }
+    .meta { margin-top: 1rem; }
+    .topics { margin-top: 0.5rem; }
     a { color: #2563eb; }
-    .meta { color: #666; font-size: 0.875rem; margin-top: 2rem; }
+    .repo-link { display: inline-block; margin-top: 0.5rem; font-weight: 600; }
+    article { margin-top: 2rem; }
+    article img { max-width: 100%; height: auto; }
+    article pre { overflow-x: auto; background: #f3f4f6; padding: 1rem; border-radius: 0.5rem; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 0.875rem; }
   </style>
 </head>
 <body>
-  <h1>n8n</h1>
-  <p>GitHub Pages site for <strong>subkhanibnuaji/n8n</strong>.</p>
-  <p><a href="https://github.com/subkhanibnuaji/n8n">View repository →</a></p>
-  <p class="meta">Generated at 2026-06-22T02:31:42.615Z</p>
+  <header>
+    <h1>n8n</h1>
+    <p class="desc">Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</p>
+    <div class="meta">
+      <a class="repo-link" href="https://github.com/subkhanibnuaji/n8n">View repository →</a>
+      
+    </div>
+  </header>
+  <article>
+    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png"><img src="https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png" alt="Banner image" style="max-width: 100%;"></a></p>
+<h1>n8n - Secure Workflow Automation for Technical Teams</h1>
+<p>n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png"><img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png" alt="n8n.io - Screenshot" style="max-width: 100%;"></a></p>
+<h2>Key Capabilities</h2>
+<ul>
+<li><strong>Code When You Need It</strong>: Write JavaScript/Python, add npm packages, or use the visual interface</li>
+<li><strong>AI-Native Platform</strong>: Build AI agent workflows based on LangChain with your own data and models</li>
+<li><strong>Full Control</strong>: Self-host with our fair-code license or use our <a href="https://app.n8n.cloud/login" rel="nofollow">cloud offering</a></li>
+<li><strong>Enterprise-Ready</strong>: Advanced permissions, SSO, and air-gapped deployments</li>
+<li><strong>Active Community</strong>: 400+ integrations and 900+ ready-to-use <a href="https://n8n.io/workflows" rel="nofollow">templates</a></li>
+</ul>
+<h2>Quick Start</h2>
+<p>Try n8n instantly with <a href="https://docs.n8n.io/hosting/installation/npm/" rel="nofollow">npx</a> (requires <a href="https://nodejs.org/en/" rel="nofollow">Node.js</a>):</p>
+<pre class="notranslate"><code class="notranslate">npx n8n
+</code></pre>
+<p>Or deploy with <a href="https://docs.n8n.io/hosting/installation/docker/" rel="nofollow">Docker</a>:</p>
+<pre class="notranslate"><code class="notranslate">docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+</code></pre>
+<p>Access the editor at <a href="http://localhost:5678" rel="nofollow">http://localhost:5678</a></p>
+<h2>Resources</h2>
+<ul>
+<li>📚 <a href="https://docs.n8n.io" rel="nofollow">Documentation</a></li>
+<li>🔧 <a href="https://n8n.io/integrations" rel="nofollow">400+ Integrations</a></li>
+<li>💡 <a href="https://n8n.io/workflows" rel="nofollow">Example Workflows</a></li>
+<li>🤖 <a href="https://docs.n8n.io/advanced-ai/" rel="nofollow">AI &amp; LangChain Guide</a></li>
+<li>👥 <a href="https://community.n8n.io" rel="nofollow">Community Forum</a></li>
+<li>📖 <a href="https://community.n8n.io/c/tutorials/28" rel="nofollow">Community Tutorials</a></li>
+</ul>
+<h2>Support</h2>
+<p>Need help? Our community forum is the place to get support and connect with other users:<br>
+<a href="https://community.n8n.io" rel="nofollow">community.n8n.io</a></p>
+<h2>License</h2>
+<p>n8n is <a href="https://faircode.io" rel="nofollow">fair-code</a> distributed under the <a href="https://github.com/n8n-io/n8n/blob/master/LICENSE.md">Sustainable Use License</a> and <a href="https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md">n8n Enterprise License</a>.</p>
+<ul>
+<li><strong>Source Available</strong>: Always visible source code</li>
+<li><strong>Self-Hostable</strong>: Deploy anywhere</li>
+<li><strong>Extensible</strong>: Add your own nodes and functionality</li>
+</ul>
+<p><a href="mailto:license@n8n.io">Enterprise licenses</a> available for additional features and support.</p>
+<p>Additional information about the license model can be found in the <a href="https://docs.n8n.io/sustainable-use-license/" rel="nofollow">docs</a>.</p>
+<h2>Contributing</h2>
+<p>Found a bug 🐛 or have a feature idea ✨? Check our <a href="https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md">Contributing Guide</a> to get started.</p>
+<h2>Join the Team</h2>
+<p>Want to shape the future of automation? Check out our <a href="https://n8n.io/careers" rel="nofollow">job posts</a> and join our team!</p>
+<h2>What does n8n mean?</h2>
+<p><strong>Short answer:</strong> It means "nodemation" and is pronounced as n-eight-n.</p>
+<p><strong>Long answer:</strong> "I get that question quite often (more often than I expected) so I decided it is probably best to answer it here. While looking for a good name for the project with a free domain I realized very quickly that all the good ones I could think of were already taken. So, in the end, I chose nodemation. 'node-' in the sense that it uses a Node-View and that it uses Node.js and '-mation' for 'automation' which is what the project is supposed to help with. However, I did not like how long the name was and I could not imagine writing something that long every time in the CLI. That is when I then ended up on 'n8n'." - <strong>Jan Oberhauser, Founder and CEO, n8n.io</strong></p>
+  </article>
+  <footer>
+    Generated at 2026-06-28T15:57:57.322Z
+  </footer>
 </body>
 </html>
